@@ -1,0 +1,74 @@
+/* Color Scheme
+            Black: #000000
+            White: #ffffff
+            Orange: #c28c46
+            Grey: #808080
+  */
+
+/* text */
+
+html {
+    font-family: sans-serif; }
+    font-size: 12pt;
+    color: #222;
+}
+
+body {
+    margin: 0;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+/* header image */
+
+html { 
+    background: url(../media/home.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/* navigation bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height:5em;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding:  1.2em 6.1em 0 6.1em;
+    text-decoration: none;
+    height:5em;
+    font-size:1.3em;
+    letter-spacing: 8px;
+    
+}
+
+li a:hover {
+    background-color: #c28c46;
+}
+
+li {
+    border-right: 1px solid #808080;
+    height:5em;
+}
